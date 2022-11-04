@@ -1,0 +1,123 @@
+*{
+    padding: 15px;
+    width:max-content;
+    border-color: black;
+    border: solid 5px;
+    border-radius: 5%;
+
+
+}
+
+#id0 {
+
+    background-color: darkgoldenrod;
+    animation-name: an;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+#id1 {
+
+    background-color:cornflowerblue;
+    animation-name: a;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+#id2 {
+
+    color:yellow;
+}
+
+#id3 {
+
+    background-color:tomato;
+}
+
+p {
+
+    color: darkblue;
+}
+
+#id5 {
+
+    height:300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#id7 {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#id8 {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#id9 {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+
+}
+
+#id10 {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+
+}
+
+
+li:hover {
+
+    color: greenyellow;
+    background-color: hotpink;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 30%;
+
+
+}
+
+button {
+
+    background-color: chartreuse;
+    color: crimson;
+}
+
+
+@keyframes a{
+
+    from{
+        background-color: blue;
+
+    }
+
+    to{
+        background-color: red;
+    }
+}
+
+@keyframes an{
+
+    from{
+        background-color: chocolate;
+    }
+
+    to{
+        background-color: violet;
+    }
+}

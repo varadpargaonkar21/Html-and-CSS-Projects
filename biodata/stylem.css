@@ -1,0 +1,90 @@
+#id1 {
+
+    height: 500px;
+    width: 200px;
+    border: 10px solid;
+    border-color:slateblue;
+    border-radius: 30%;
+}
+
+#id2 {
+
+    height: 500px;
+    width: 200px;
+    border: 10px solid;
+    border-color:slateblue;
+    border-radius: 30%;
+}
+
+body {
+
+    border: solid brown 10px;
+    background-color: rgb(213, 248, 14);
+    animation-name: a;
+    animation-iteration-count:infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction:alternate-reverse;
+    position: relative;
+    width: 350px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+
+
+
+}
+
+* {
+
+    background-color: darkgoldenrod;
+}
+
+
+#id3 {
+    background-color:blueviolet;
+    animation-name: a2;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-direction: alternate-reverse;
+    
+}
+
+
+    @keyframes a{
+
+        from{
+            background-color:red;
+            border:5px solid black;
+            }
+
+        to{
+            background-color:blue;
+            border:5px solid greenyellow;
+        }
+
+        
+        
+    }
+
+    @keyframes a2{
+
+        from{
+            background-color: cyan;
+            
+        }
+
+        to{
+            background-color:brown;
+              
+        }
+    }
+
+
+
+
+
+
+

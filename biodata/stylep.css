@@ -1,0 +1,43 @@
+* {
+
+    padding-inline-end: 20px;
+
+    color: blue;
+
+    background-color: darkgoldenrod;
+
+    animation-name: a;
+
+    animation-duration: 1s;
+
+    animation-timing-function:ease;
+
+    animation-iteration-count: infinite;
+
+    animation-direction: alternate-reverse;
+    
+
+
+
+}
+
+a {
+
+    color:black;
+
+    background-color: cyan;
+
+    font-size: larger;
+}
+
+
+@keyframes a{
+
+    from{
+        background-color: chocolate;
+    }
+
+    to{
+        background-color: violet;
+    }
+}
